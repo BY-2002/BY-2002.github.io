@@ -197,26 +197,17 @@
           >
             <div class="title-home w-64">
               <h1
-                class="font-title font-bold font-style: italic text-right text-6xl text-purple-600"
+                class="font-title font-bold text-center text-6xl"
               >
                 Bhavna Yadav
               </h1>
-              <h2 class="text-xl md:text-2xl text-right w-full">
+              <h2 class="text-xl md:text-2xl text-center w-full">
                 Digital Artist
               </h2>
             </div>
           </div>
 
-          <!-- Title Dots -->
-          <div
-            class="w-full h-screen absolute top-0 left-0 flex justify-center"
-          >
-            <img
-              class="w-full max-w-md self-center mt-16"
-              src="./src/images/home/dots.png"
-              alt="pontilhado"
-            />
-          </div>
+
         </div>
       </section>
 
@@ -250,7 +241,7 @@
           class="mx-10 mb-10 flex flex-col md:flex-row items-center justify-center"
         >
           <button id="btn-showAll" class="btn-sortWork md:mr-4">
-            Cyberpunk
+            All
           </button>
           <button id="btn-runescape" class="btn-sortWork md:mr-4">
             Illustrations
@@ -270,7 +261,7 @@
               />
             </div>
             <img
-              src="./src/images/portfolio/serie-runescape/runescape-1-sm.jpg"
+              src="./src/images/portfolio/serie-runescape/ghostrider-1-sm.jpg"
               alt="lenhador carregando um tronco de árvore, caminhando pela floresta"
             />
           </div>
@@ -284,7 +275,7 @@
               />
             </div>
             <img
-              src="./src/images/portfolio/serie-runescape/runescape-2-sm.jpg"
+              src="./src/images/portfolio/serie-runescape/Godfather-2-sm.jpg"
               alt="pescador pescando em um lago"
             />
           </div>
@@ -298,7 +289,7 @@
               />
             </div>
             <img
-              src="./src/images/portfolio/serie-runescape/runescape-3-sm.jpg"
+              src="./src/images/portfolio/serie-runescape/Perception-3-sm.jpg"
               alt="cavaleiro sentado sob a sombra de uma árvore"
             />
           </div>
@@ -312,7 +303,7 @@
               />
             </div>
             <img
-              src="./src/images/portfolio/serie-runescape/runescape-4-sm.jpg"
+              src="./src/images/portfolio/serie-runescape/Untitled-4-sm.jpg"
               alt="ferreiro segurando um grande martelo"
             />
           </div>
@@ -486,77 +477,16 @@
           class="title-box flex flex-col md:mb-20 text-center md:relative md:z-10"
         >
           <h1 class="title-text title-text-contato">Contact Me</h1>
+          <p class="text-4xl text-gray-600">Feel free to reach out through any of the following channels.</p>
+
           <div class="title-line w-56 self-center mr-10"></div>
           <div class="title-line w-56 self-center ml-10"></div>
-        </div>
-
-        <!-- Form -->
-        <form id="form" class="w-full max-w-lg m-auto">
-          <div class="mb-5">
-            <label for="name"></label>
-            <input
-              id="name"
-              type="text"
-              placeholder="your name"
-              class="input-field"
-            />
-
-            <div class="form-error"><p id="name-error"></p></div>
+           <!-- Contact Information -->
+          <div class="mt-5">
+            <p><strong class="text-3xl">Email:</strong> <a href="mailto:your@email.com" class="text-3xl text-teal-600">ybhavna00@gmail.com</a></p>
+            <p><strong class="text-3xl">Phone:</strong> <a href="tel:+1234567890" class="text-3xl text-teal-600">+91 9899658865</a></p>
+            <p><strong class="text-3xl">Instagram:</strong> <a href="https://instagram.com/y.bhavna" target="_blank" class="text-3xl text-teal-600">@y.bhavna</a></p>
           </div>
-
-          <div class="mb-5">
-            <label for="email"></label>
-            <input
-              id="email"
-              type="text"
-              placeholder="your@email.com"
-              class="input-field"
-            />
-
-            <div class="form-error"><p id="email-error"></p></div>
-          </div>
-
-          <div class="mb-5">
-            <label for="subject"></label>
-            <input
-              id="subject"
-              type="text"
-              placeholder="subject"
-              class="input-field"
-            />
-
-            <div class="form-error"><p id="subject-error"></p></div>
-          </div>
-
-          <div class="mb-5">
-            <label for="message"></label>
-            <textarea
-              id="message"
-              type="text"
-              placeholder="message"
-              rows="6"
-              class="input-field resize-none"
-            ></textarea>
-
-            <div class="form-error"><p id="message-error"></p></div>
-          </div>
-
-          <button
-            id="btn-submit"
-            type="submit"
-            class="text-gray-100 bg-teal-600 hover:bg-teal-700 rounded px-10 py-3 font-bold float-right"
-          >
-            submit
-          </button>
-        </form>
-
-        <!-- Message Sent  -->
-        <div
-          id="message-sent"
-          class="hidden fixed inset-0 z-50 m-auto text-gray-100 flex flex-col items-center justify-center rounded"
-        >
-          <h1 class="text-3xl font-bold">Message Sent!</h1>
-          <h2>A response will soon be sent to your email.</h2>
         </div>
       </section>
     </main>

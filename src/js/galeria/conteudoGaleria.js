@@ -15,39 +15,39 @@ const conteudo = {
   runescape: {
     trabalho1: {
       img: {
-        sm: "/src/images/portfolio/serie-runescape/runescape-1-sm.jpg",
-        lg: "/src/images/portfolio/serie-runescape/runescape-1-lg.jpg"
+        sm: "/src/images/portfolio/serie-runescape/ghostrider-1-sm.jpg",
+        lg: "/src/images/portfolio/serie-runescape/ghostrider-1-lg.jpg"
       },
-      titulo: "o lenhador",
-      serie: "série runescape",
-      data: "{15 / 07 / 2017}"
+      titulo: "Ghost Rider",
+      serie: "Illustrations",
+      data: ""
     },
     trabalho2: {
       img: {
-        sm: "/src/images/portfolio/serie-runescape/runescape-2-sm.jpg",
-        lg: "/src/images/portfolio/serie-runescape/runescape-2-lg.jpg"
+        sm: "/src/images/portfolio/serie-runescape/Godfather-2-sm.jpg",
+        lg: "/src/images/portfolio/serie-runescape/Godfather-2-lg.jpg"
       },
-      titulo: "o pescador de edgeville",
-      serie: "série runescape",
-      data: "{27 / 06 / 2017}"
+      titulo: "Don Delgado",
+      serie: "Illustration",
+      data: ""
     },
     trabalho3: {
       img: {
-        sm: "/src/images/portfolio/serie-runescape/runescape-3-sm.jpg",
-        lg: "/src/images/portfolio/serie-runescape/runescape-3-lg.jpg"
+        sm: "/src/images/portfolio/serie-runescape/Perception-3-sm.jpg",
+        lg: "/src/images/portfolio/serie-runescape/Perception-3-lg.jpg"
       },
-      titulo: "Sob a sombra do carvalho",
-      serie: "série runescape",
-      data: "{13 / 08 / 2017}"
+      titulo: "Perception",
+      serie: "Illustration",
+      data: ""
     },
     trabalho4: {
       img: {
-        sm: "/src/images/portfolio/serie-runescape/runescape-4-sm.jpg",
-        lg: "/src/images/portfolio/serie-runescape/runescape-4-lg.jpg"
+        sm: "/src/images/portfolio/serie-runescape/Untitled-4-sm.jpg",
+        lg: "/src/images/portfolio/serie-runescape/Untitled-4-lg.jpg"
       },
-      titulo: "o ferreiro de varrock",
-      serie: "série runescape",
-      data: "{18 / 11 / 2017}"
+      titulo: "Landscape",
+      serie: "Illustration",
+      data: ""
     }
   },
   folclore: {
