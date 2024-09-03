@@ -48,44 +48,53 @@ const conteudo = {
       titulo: "Landscape",
       serie: "Illustration",
       data: ""
+    },
+    trabalho5: {
+      img: {
+        sm: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-sm.jpg",
+        lg: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-lg.jpg"
+      },
+      titulo: "Cyberpunk Girl",
+      serie: "Illustration",
+      data: ""
     }
   },
   folclore: {
     trabalho1: {
       img: {
-        sm: "/src/images/portfolio/serie-folclore/folclore-1-sm.jpg",
-        lg: "/src/images/portfolio/serie-folclore/folclore-1-lg.jpg"
+        sm: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-sm.jpg",
+        lg: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-lg.jpg"
       },
-      titulo: "yaci yaterê",
-      serie: "série folclore do brasil",
-      data: "{28 / 03 / 2018}"
+      titulo: "I Feel Spacey",
+      serie: "Illustration",
+      data: ""
     },
     trabalho2: {
       img: {
-        sm: "/src/images/portfolio/serie-folclore/folclore-2-sm.jpg",
-        lg: "/src/images/portfolio/serie-folclore/folclore-2-lg.jpg"
+        sm: "/src/images/portfolio/serie-folclore/CyberpunkGirl-2-sm.jpg",
+        lg: "/src/images/portfolio/serie-folclore/CyberpunkGirl-2-lg.jpg"
       },
-      titulo: "y'iara",
-      serie: "série folclore do brasil",
-      data: "{15 / 06 / 2018}"
+      titulo: "Serene",
+      serie: "Potraits",
+      data: ""
     },
     trabalho3: {
       img: {
-        sm: "/src/images/portfolio/serie-folclore/folclore-3-sm.jpg",
-        lg: "/src/images/portfolio/serie-folclore/folclore-3-lg.jpg"
+        sm: "/src/images/portfolio/serie-folclore/Serene-3-sm.jpg",
+        lg: "/src/images/portfolio/serie-folclore/Serene-3-lg.jpg"
       },
-      titulo: "mbae'tatá",
-      serie: "série folclore do brasil",
-      data: "{30 / 09 / 2018}"
+      titulo: "Aurora",
+      serie: "Potraits",
+      data: ""
     },
     trabalho4: {
       img: {
-        sm: "/src/images/portfolio/serie-folclore/folclore-4-sm.jpg",
-        lg: "/src/images/portfolio/serie-folclore/folclore-4-lg.jpg"
+        sm: "/src/images/portfolio/serie-folclore/Arora-4-sm.jpg",
+        lg: "/src/images/portfolio/serie-folclore/Arora-4-lg.jpg"
       },
-      titulo: "vitória régia",
-      serie: "série folclore do brasil",
-      data: "{11 / 12 / 2018}"
+      titulo: "Cyberpunk Girl",
+      serie: "Potraits",
+      data: ""
     }
   }
 };
