@@ -21447,7 +21447,7 @@ button::selection {
 
 .gallery-sample {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .gallery-img-sample {

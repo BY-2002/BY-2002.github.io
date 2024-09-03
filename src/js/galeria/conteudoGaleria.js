@@ -48,15 +48,6 @@ const conteudo = {
       titulo: "Landscape",
       serie: "Illustration",
       data: ""
-    },
-    trabalho5: {
-      img: {
-        sm: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-sm.jpg",
-        lg: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-lg.jpg"
-      },
-      titulo: "Cyberpunk Girl",
-      serie: "Illustration",
-      data: ""
     }
   },
   folclore: {
@@ -65,7 +56,7 @@ const conteudo = {
         sm: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-sm.jpg",
         lg: "/src/images/portfolio/serie-folclore/I_feel_spacey-1-lg.jpg"
       },
-      titulo: "I Feel Spacey",
+      titulo: "Spacey",
       serie: "Illustration",
       data: ""
     },
@@ -74,7 +65,7 @@ const conteudo = {
         sm: "/src/images/portfolio/serie-folclore/CyberpunkGirl-2-sm.jpg",
         lg: "/src/images/portfolio/serie-folclore/CyberpunkGirl-2-lg.jpg"
       },
-      titulo: "Serene",
+      titulo: "Cyberpunk Girl",
       serie: "Potraits",
       data: ""
     },
@@ -83,7 +74,7 @@ const conteudo = {
         sm: "/src/images/portfolio/serie-folclore/Serene-3-sm.jpg",
         lg: "/src/images/portfolio/serie-folclore/Serene-3-lg.jpg"
       },
-      titulo: "Aurora",
+      titulo: "Serene",
       serie: "Potraits",
       data: ""
     },
@@ -92,7 +83,7 @@ const conteudo = {
         sm: "/src/images/portfolio/serie-folclore/Arora-4-sm.jpg",
         lg: "/src/images/portfolio/serie-folclore/Arora-4-lg.jpg"
       },
-      titulo: "Cyberpunk Girl",
+      titulo: "Aurora",
       serie: "Potraits",
       data: ""
     }
