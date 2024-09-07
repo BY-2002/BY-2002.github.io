@@ -69,6 +69,14 @@ $(document).ready(function() {
     .setClassToggle("#runescape-4", "fade-in")
     .addTo(controller);
 
+    let runescapeImg5 = new ScrollMagic.Scene({
+      triggerElement: "#runescape-5",
+      triggerHook: 0.5,
+      reverse: false
+    })
+      .setClassToggle("#runescape-5", "fade-in")
+      .addTo(controller);
+
   let folcloreImg1 = new ScrollMagic.Scene({
     triggerElement: "#folclore-1",
     triggerHook: 0.8,

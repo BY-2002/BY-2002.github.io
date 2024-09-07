@@ -48,6 +48,15 @@ const conteudo = {
       titulo: "Landscape",
       serie: "Illustration",
       data: ""
+    },
+    trabalho5: {
+      img: {
+        sm: "/src/images/portfolio/serie-runescape/Heads-5-sm.jpg",
+        lg: "/src/images/portfolio/serie-runescape/Heads-5-lg.jpg"
+      },
+      titulo: "Heads",
+      serie: "Illustration",
+      data: ""
     }
   },
   folclore: {

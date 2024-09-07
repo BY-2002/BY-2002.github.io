@@ -2,6 +2,7 @@ const runescapeSample1 = document.getElementById("runescape-1");
 const runescapeSample2 = document.getElementById("runescape-2");
 const runescapeSample3 = document.getElementById("runescape-3");
 const runescapeSample4 = document.getElementById("runescape-4");
+const runescapeSample5 = document.getElementById("runescape-5");
 
 const runescapeImg1 = () => {
   windowWidth < 1024
@@ -40,6 +41,17 @@ const runescapeImg4 = () => {
   txtDataElmt.innerHTML = conteudo.runescape.trabalho4.data;
 };
 
+const runescapeImg5 = () => {
+  windowWidth < 1024
+    ? (imgElmt.src = conteudo.runescape.trabalho5.img.sm)
+    : (imgElmt.src = conteudo.runescape.trabalho5.img.lg);
+
+  txtTituloElmt.innerHTML = conteudo.runescape.trabalho5.titulo;
+  txtSerieElmt.innerHTML = conteudo.runescape.trabalho5.serie;
+  txtDataElmt.innerHTML = conteudo.runescape.trabalho5.data;
+};
+
+
 runescapeSample1.addEventListener("click", () => {
   abrirGaleria();
   runescapeImg1();
@@ -55,4 +67,9 @@ runescapeSample3.addEventListener("click", () => {
 runescapeSample4.addEventListener("click", () => {
   abrirGaleria();
   runescapeImg4();
+});
+
+runescapeSample5.addEventListener("click", () => {
+  abrirGaleria();
+  runescapeImg5();
 });
