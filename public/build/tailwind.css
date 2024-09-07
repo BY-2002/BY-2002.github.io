@@ -21446,7 +21446,7 @@ button::selection {
 /* Gallery Images --------------------------------------------- */
 
 .gallery-sample {
-  display: grid;
+  display: flexbox;
   grid-gap: 1rem;
 }
 
